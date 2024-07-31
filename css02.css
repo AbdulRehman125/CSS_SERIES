@@ -1,0 +1,47 @@
+.container{
+border: 2px solid black;
+height: 50vh;
+display: flex;
+/* flex-direction: column; */
+/* flex-direction:row-reverse ; */
+/* flex-direction:column-reverse ; */
+/* justify-content: center; */
+/* justify-content: end; */
+/* justify-content: start; */
+/* align-items: center; */
+/* align-items: flex-end; */
+/* align-items: flex-start; */
+flex-wrap: wrap;
+}
+.item{
+    background-color: rgb(0, 255, 85);
+    border: 2px solid yellow;
+    width: 122px;
+    height: 42px;
+    margin: 10px;
+    border-radius: 200px;
+}
+
+.no1{
+    /* order: 3; */
+   
+}
+
+.no2{
+    
+    flex-grow: 3;
+    /* flex-shrink: 2; */
+}
+
+
+.no4{
+    /* order: 5; */
+}
+
+button{
+    margin-left: 20px;
+    width: 40px;
+    height: 20px;
+    background-color: yellow;
+    color: black;
+}
