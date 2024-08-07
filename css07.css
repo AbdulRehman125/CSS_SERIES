@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    box-shadow: 0px 12px 10px 0 #ccc;
+    display: flex;
+}
+
+header .main{
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    /* top: ;
+    left: ;
+    right: ;
+    bottom: ; */
+   
+}
+
+.main img {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul{
+  width: 100px;
+  display: flex;
+}
+nav li{
+ margin:25px 25px ;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.career{
+    width: 1170px;
+    display: flex;
+    padding: 50px 0px;
+    background-color: #ccc;
+    margin: auto;
+    align-items: flex-start;
+    
+}
+
+.items{
+    flex-basis: 30%;
+    margin: 1.5%;
+    border: 1px solid red;
+    position: relative;
+}
+
+.items img {
+    width: 100%;
+}
+
+.contend{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    
+}
+
+.career:hover .contend {
+  transform: scaleY(1);
+}
