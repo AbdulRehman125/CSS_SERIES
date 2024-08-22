@@ -1,0 +1,59 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    }
+
+.test1{
+    flex: 2;
+    /* background-color: blue; */
+    display: flex;
+   
+}
+
+.test1_Child1{
+    flex: 0.3;
+    /* background-color: rgb(255, 8, 0); */
+}
+
+.son1{
+    width: 22vw;
+    height: 13vh;
+    background-color: yellow;
+    margin: 10px;
+}
+.test1_Child2{
+    flex: 1;
+    /* background-color: rgb(166, 255, 0); */
+}
+.son2{
+    width: 74vw;
+    height: 13vh;
+    background-color: rgb(255, 132, 0);
+    margin: 10px;
+}
+
+
+
+.test2{
+    flex: 1;
+    background-color: rgb(255, 0, 179);
+
+}
+
+
+
+.test3{
+    flex: 4;
+    background-color: rgb(255, 0, 0);
+
+}
+
+.test4{
+    flex: 4;
+    background-color: rgb(255, 98, 0);
+
+}
